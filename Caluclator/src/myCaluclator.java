@@ -1,21 +1,46 @@
+import java.util.*;
+public class myCalculator {
+	 public static void main(String args[]) {
+	        // Create an instance of the myCalculator class
+	        myCalculator calculator = new myCalculator();
 
-public class myCaluclator {
+	        // Call the methods and pass the numbers to perform the operations
+	        int additionResult = calculator.addition(5, 3);
+	        System.out.println("Addition result: " + c);
 
-	public static void main(String[] args) {
-	// perform addition
-		public class additon(int a,int b)
+	        int subtractionResult = calculator.subtraction(10, 5);
+	        System.out.println("Subtraction result: " + c1);
+
+	        int multiplicationResult = calculator.multiplication(4, 6);
+	        System.out.println("Multiplication result: " + c2);
+
+	        int divisionResult = calculator.division(20, 4);
+	        System.out.println("Division result: " + c3);
+	    }
+	
+		public int additon(int a,int b)
 		{
 			//return the value;
+			int c = a+b;
+			return c;
 		}
-		public class subtraction(int a,int b)
+		public int subtraction(int a1,int b1)
 		{
 			//return the result
+			int c1 = a1-b1;
+			return c1;
 		}
-		public class multiplicaton(int a,int b)
+		public int multiplicaton(int a2,int b2)
 		{
 			//return the result
+			int c2 = a2*b2;
+			return c2;
 		}
-	}
-	//Write the Main functionS
-
+		public int division(int a3,int b3)
+		{
+			//return result
+			int c3 = a3/b3;
+			return c3;
+		}
 }
+
